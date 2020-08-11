@@ -1,6 +1,6 @@
-customhost = "employee.cwaqnyx8uyjt.us-east-2.rds.amazonaws.com"
+customhost = "miracle.cwaqnyx8uyjt.us-east-2.rds.amazonaws.com"
 customuser = "cheelvis"
 custompass = "Passw0rd123!"
-customdb = "employee"
+customdb = "elvis"
 custombucket = "cf-templates-qo3wxwz9hxw-us-east-2"
 customregion = "us-east-2"
