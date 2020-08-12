@@ -17,6 +17,6 @@ $mysql -h <db-endpoin> -u <db-username> -p<enter>, then provide db-PW
 in the README file. Also edit the config.py file accordingly.
 10- test the application
 11- to see the information in the db, go into the msql and run the following:
-$use <db-name>; eg use Elvis; enter the run $select * from employee;
+$use <db-name>; eg use Elvis; enter then run $select * from employee;
 
 NB: the table name MUST be employee.  
