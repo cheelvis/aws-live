@@ -1,0 +1,22 @@
+1- craete a mysql db without specifying the db name
+2- create an s3 bucket in the same region as the db where uploaded objects
+will be stored.
+3- launch an ubuntu server
+4- install msql client $sudo apt-get install mysql-client -y
+5- connect to the mysql db using:
+$mysql -h <db-endpoin> -u <db-username> -p<enter>, then provide db-PW
+6- while in mysql, run show databases; there will be non.
+7- create database $create database <db-name>
+8- create a table in the db $create table employee(
+         ->empid varchar(20),
+         ->fname varchar(20), 
+         ->lname varchar(20),
+         ->pri_skill varchar(20),
+         ->location varchar(20)); enter
+9- after cloning the repo, cd into the project and run the commands found
+in the README file. Also edit the config.py file accordingly.
+10- test the application
+11- to see the information in the db, go into the msql and run the following:
+$use <db-name>; eg use Elvis; enter the run $select * from employee;
+
+NB: the table name MUST be employee.  
