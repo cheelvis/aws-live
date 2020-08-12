@@ -5,7 +5,7 @@ will be stored.
 4- install msql client $sudo apt-get install mysql-client -y
 5- connect to the mysql db using:
 $mysql -h <db-endpoin> -u <db-username> -p<enter>, then provide db-PW
-6- while in mysql, run show databases; there will be non.
+6- while in mysql, run $show databases; there will be non.
 7- create database $create database <db-name>
 8- create a table in the db $create table employee(
          ->empid varchar(20),
@@ -15,8 +15,8 @@ $mysql -h <db-endpoin> -u <db-username> -p<enter>, then provide db-PW
          ->location varchar(20)); enter
 9- after cloning the repo, cd into the project and run the commands found
 in the README file. Also edit the config.py file accordingly.
-10- test the application
+10- test the application by entering data and uplaoding a file
 11- to see the information in the db, go into the msql and run the following:
-$use <db-name>; eg use Elvis; enter then run $select * from employee;
+$use <db-name>; eg use Elvis; enter, then run $select * from employee;
 
 NB: the table name MUST be employee.  
