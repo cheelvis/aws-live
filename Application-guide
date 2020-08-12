@@ -19,4 +19,4 @@ in the README file. Also edit the config.py file accordingly.
 11- to see the information in the db, go into the msql and run the following:
 $use <db-name>; eg use Elvis; enter, then run $select * from employee;
 
-NB: the table name MUST be employee.  
+NB: the table name MUST be employee.  yes
